@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="Stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+<h2>User Registration Form</h2>
+<form id="form">
+Name:<input type="text" id="name"><br><br>
+Email:<input type="email" id="email"><br><br>
+Password:<input type="password" pd="password"><br><br>
+Confirm password:<input type="password" id="password"><br><br>
+Gender:<input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br><br>
+Country:<select id="country">
+<option value=" ">Select</option>
+<option>India</option>
+<option>USA</option>
+<option>Canada</option>
+</select><br><br>
+<input type="checkbox" id="terms">
+Accept term and conditions<br><br>
+<button type="submit">Register</button>
+</form>
+<h3 id="message"></h3>
+<div id="output"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
